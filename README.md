@@ -1,7 +1,7 @@
 # 3DSFE-bookmark-backup-utilty
 Fire Emblem Awakening and Fire Emblem Fates disable the ability to make Battle Saves when the difficulty is Hard or greater but does generate Bookmarks which are deleted after reloading the game
 
-These scripts aim to enable a user to (Thread 1) asynchronously backup (automatically) and (Thread 2)asynchronously restore bookmarks (upon pressing 'c') deleted by the game from a seperate directory.
+These scripts aim to enable a user to (Thread 1) asynchronously backup (automatically) and (Thread 2) asynchronously restore bookmarks (upon pressing 'c') deleted by the game from a seperate directory.
 
 The script watches the directories for each of these two games defined in 'config.ini' in the same folder as the script.
 
