@@ -46,7 +46,7 @@ class decorators:
 class utility:
     @decorators.runasync
     async def check_sha5(self, bookmark):
-        """retrieves the sha5 of a boomark filename using hashlib"""
+        """retrieves the sha5 of a bookmark filename using hashlib"""
         with open(bookmark,"rb") as file:
             data=file.read()
             sha = hashlib.sha256(data).hexdigest()
@@ -96,7 +96,7 @@ class backupfile:
             self.bookmarks_folder=os.path.join(self.path,"bookmarks_backup")
             self.bookmarks = [os.path.join(self.path, "Temporary.bak"), os.path.join(self.path, "Temporary.bak^")]
             
-        print("Your boomark path is:", self.bookmarks_folder)
+        print("Your bookmark path is:", self.bookmarks_folder)
         print("Your monitored directory is:", self.path)
         
         if not os.path.exists(self.bookmarks_folder):
