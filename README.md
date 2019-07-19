@@ -10,7 +10,7 @@ The script is intended to be used with Citra.
 ## Getting Started
 
 1. Create a config.ini file in the script folder 
-2. Type ```python 3dsFEbookmarkbackup.py``` to run
+2. Type ```python 3dsFEbookmarkbackup.py``` to run in the cli
 3. Script requires python 3.7 or more and needs to be run in cli rather than an IDE. It has been tested on windows
 
 ### config.ini template
