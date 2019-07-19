@@ -14,6 +14,7 @@ The script is intended to be used with Citra.
 3. Script requires python 3.7 or more and needs to be run in cli rather than an IDE. It has been tested on windows
 
 ### config.ini template
+Fill in the path with the path obtained in citra-qt.exe, from right clicking the game and selecting Open Save Data Location for the path
 ```
 [Settings]
 ;game is Awakening or Fates
